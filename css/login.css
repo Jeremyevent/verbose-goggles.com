@@ -1,3 +1,7 @@
+body {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
 .main_container {
     backdrop-filter: blur(10px);
     box-shadow: 2px 4px 6px;
