@@ -1,0 +1,45 @@
+.main_container {
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 4px 6px;
+    margin: 20% 10%;
+    border-radius: 20px;
+    padding: 10px 5px;
+    border: 1px solid white;
+}
+.heading{
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+.input {
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 10px 5px;
+    margin: 0px 15%;
+    color:white;
+}
+.input::placeholder {
+    font-size: 100%;
+}
+.input:focus::placeholder {
+    color: red;
+}
+.checkbox {
+    margin-left: 50px;
+}
+.signin {
+    margin-left: 26px;
+}
+.submit_button {
+    border: 1px solid white;
+    padding: 10px 50px;
+    margin: 0px 15%;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-size: 100%;
+
+}
